@@ -10,7 +10,7 @@ source:
   url: https://pypi.python.org/packages/source/b/bob.learn.libsvm/bob.learn.libsvm-{{ version }}.zip
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win]
 
 requirements:
@@ -22,7 +22,7 @@ requirements:
     - bob.core
     - bob.io.base
     - libsvm
-    - boost 1.60.*
+    - boost 1.61.*
     - cmake
     - pkg-config
 
@@ -33,7 +33,7 @@ requirements:
     - bob.core
     - bob.io.base
     - libsvm
-    - boost 1.60.*
+    - boost 1.61.*
 
 test:
   commands:

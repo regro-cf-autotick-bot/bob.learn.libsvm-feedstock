@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.learn.libsvm-{{ version }}.zip
   md5: 0ab091c9a33cbed41ae1d61a0bac1664
-  url: https://pypi.python.org/packages/source/b/bob.learn.libsvm/bob.learn.libsvm-{{ version }}.zip
+  url: https://pypi.io/packages/source/b/bob.learn.libsvm/bob.learn.libsvm-{{ version }}.zip
 
 build:
   number: 0

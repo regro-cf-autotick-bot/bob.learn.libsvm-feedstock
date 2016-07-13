@@ -1,4 +1,4 @@
-{% set version = "2.0.3" %}
+{% set version = "2.0.6" %}
 
 package:
   name: bob.learn.libsvm
@@ -6,11 +6,11 @@ package:
 
 source:
   fn: bob.learn.libsvm-{{ version }}.zip
-  md5: 9f2a32a574f940d0c6c356cb607ae9b1
-  url: https://pypi.python.org/packages/source/b/bob.learn.libsvm/bob.learn.libsvm-{{ version }}.zip
+  md5: 0ab091c9a33cbed41ae1d61a0bac1664
+  url: https://pypi.io/packages/source/b/bob.learn.libsvm/bob.learn.libsvm-{{ version }}.zip
 
 build:
-  number: 3
+  number: 0
   skip: true  # [win]
 
 requirements:

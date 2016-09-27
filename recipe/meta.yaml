@@ -1,4 +1,4 @@
-{% set version = "2.0.6" %}
+{% set version = "2.0.8" %}
 
 package:
   name: bob.learn.libsvm
@@ -6,11 +6,11 @@ package:
 
 source:
   fn: bob.learn.libsvm-{{ version }}.zip
-  md5: 0ab091c9a33cbed41ae1d61a0bac1664
+  md5: 5bf379ca9755c2788a2a291d96b108ba
   url: https://pypi.io/packages/source/b/bob.learn.libsvm/bob.learn.libsvm-{{ version }}.zip
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
@@ -48,7 +48,7 @@ test:
     - nose
 
 about:
-  home: http://github.com/bioidiap/bob.learn.libsvm
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Bob's Python bindings to LIBSVM
 
